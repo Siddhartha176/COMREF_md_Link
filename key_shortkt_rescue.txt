@@ -1,0 +1,38 @@
+======git commands===
+…or create a new repository on the command line
+echo "# COMREF_md_Link" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Siddhartha176/COMREF_md_Link.git
+git push -u origin main
+
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Siddhartha176/COMREF_md_Link.git
+git branch -M main
+git push -u origin main
+
+=======Unix commands======
+
+find ./ -type f -name "*.txt" -exec grep 'Geek'  {} \;
+$ find ./GFG -perm 664
+$ find ./GFG -empty
+$ find ./GFG -name sample.txt -exec rm -i {} \; 
+$ find ./GFG -name *.txt 
+$ find ./GFG -name sample.txt 
+
+======vi commands=====
+
+Vi shortcuts
+$ vi <filename> — Open or edit a file.
+i — Switch to Insert mode.
+Esc — Switch to Command mode.
+:w — Save and continue editing.
+:wq or ZZ — Save and quit/exit vi.
+:q! — Quit vi and do not save changes.
+yy — Yank (copy) a line of text.
+p — Paste a line of yanked text below the current line.
